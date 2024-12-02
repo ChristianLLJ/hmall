@@ -1,0 +1,35 @@
+13:09:19:774  INFO 6332 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 11.0.25 on ChrisL with PID 6332 (C:\code\hmall\hm-service\target\classes started by 39836 in C:\code\hmall)
+13:09:19:781 DEBUG 6332 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:09:19:781  INFO 6332 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+13:09:20:675  INFO 6332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+13:09:20:678  INFO 6332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:09:20:731  INFO 6332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+13:09:21:240  INFO 6332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+13:09:21:241  INFO 6332 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+13:09:21:242  INFO 6332 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+13:09:21:242  INFO 6332 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:09:21:246  INFO 6332 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+13:09:21:256  INFO 6332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:09:21:256  INFO 6332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:09:21:402  INFO 6332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:09:21:403  INFO 6332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1576 ms
+13:09:24:090  INFO 6332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:09:24:639  WARN 6332 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+13:09:24:670  INFO 6332 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+13:09:24:683  INFO 6332 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+13:09:24:707 ERROR 6332 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

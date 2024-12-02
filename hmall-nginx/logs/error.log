@@ -1,0 +1,2 @@
+2024/10/31 16:16:23 [emerg] 39216#39212: CreateFile() "C:\Users\39836\Desktop\SpringCloud微服务—资料\day03-微服务01\资料\hmall-nginx/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2024/11/04 16:14:28 [error] 26604#20180: *58 CreateFile() "C:\code\hmall\hmall-nginx/html/hmall-admin/doc.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /doc.html HTTP/1.1", host: "localhost:18081"
